@@ -193,6 +193,7 @@
     <ClInclude Include="..\..\gui\include\gui\customscreen_screen\CustomScreenPresenter.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\customscreen_screen\CustomScreenView.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\customscreen_screen\CustomScreenViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\common\PatternManager.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

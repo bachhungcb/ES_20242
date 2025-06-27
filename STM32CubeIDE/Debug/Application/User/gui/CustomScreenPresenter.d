@@ -1,5 +1,5 @@
 Application/User/gui/CustomScreenPresenter.o: \
- C:/TouchGFXProjects/FInalProject1/TouchGFX/gui/src/customscreen_screen/CustomScreenPresenter.cpp \
+ C:/TouchGFXProjects/ES_20242/TouchGFX/gui/src/customscreen_screen/CustomScreenPresenter.cpp \
  ../../TouchGFX/gui/include/gui/customscreen_screen/CustomScreenView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/customscreen_screen/CustomScreenViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

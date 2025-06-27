@@ -11,6 +11,8 @@
 #include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/containers/buttons/Buttons.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 
 class MainScreenViewBase : public touchgfx::View<MainScreenPresenter>
 {
@@ -99,6 +101,8 @@ protected:
     touchgfx::ButtonWithLabel registerBtn;
     touchgfx::ButtonWithLabel confirmBtn;
     touchgfx::IconButtonStyle< touchgfx::ClickButtonTrigger >  deleteBtn;
+    touchgfx::TextAreaWithOneWildcard attemptsText;
+    touchgfx::TextArea lockNotice;
 
 private:
 

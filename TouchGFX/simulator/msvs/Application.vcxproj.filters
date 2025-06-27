@@ -760,6 +760,9 @@
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\customscreen_screen\CustomScreenViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\customscreen_screen</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\PatternManager.hpp">
+      <Filter>Header Files\gui\common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc">
