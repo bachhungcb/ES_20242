@@ -18,7 +18,8 @@ public:
 
     // Thiết lập pattern tham chiếu mới (cho màn hình đăng ký)
     void setReferencePattern(const int* newPattern, uint8_t length);
-
+    // load pattern from flash memory
+    void loadPattern();
     // Xóa pattern hiện tại
     void clearReferencePattern();
 
