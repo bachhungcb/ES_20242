@@ -1,6 +1,6 @@
 #include <gui/customscreen_screen/CustomScreenView.hpp>
 #include <gui/containers/CustomContainer1.hpp>
-#include "../../../../../FInalProject1/STM32CubeIDE/Shared/PatternManager.hpp"
+#include "../../../../../ES_20242/STM32CubeIDE/Shared/PatternManager.hpp"
 
 #include "main.h"
 #include "cmsis_os.h"

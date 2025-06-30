@@ -1,5 +1,5 @@
 Application/User/gui/HomeScreenView.o: \
- C:/TouchGFXProjects/FInalProject1/TouchGFX/gui/src/homescreen_screen/HomeScreenView.cpp \
+ C:/TouchGFXProjects/ES_20242/TouchGFX/gui/src/homescreen_screen/HomeScreenView.cpp \
  ../../TouchGFX/gui/include/gui/homescreen_screen/HomeScreenView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/homescreen_screen/HomeScreenViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

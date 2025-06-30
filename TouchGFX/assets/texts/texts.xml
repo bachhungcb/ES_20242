@@ -6,6 +6,12 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_Z5M0" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Your device is locked</Translation>
+      </Text>
+      <Text Id="TXT_ATTEMPTS" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">%d attempts remains</Translation>
+      </Text>
       <Text Id="__SingleUse_TCK6" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">Xác nhận</Translation>
       </Text>

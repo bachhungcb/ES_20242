@@ -10,9 +10,11 @@ KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE;
 // Remap all strings
 TEXT_LOCATION_FLASH_PRAGMA
 KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
-    17, // T___SINGLEUSE_TCK6: "X?c nh?n"
-    17, // T___SINGLEUSE_CGNR: "X?c nh?n"
-    26, // T___SINGLEUSE_HKFS: "??ng k?"
-    34, // T___SINGLEUSE_7FDW: "Start"
-    0   // T___SINGLEUSE_DQAG: "Security Pattern"
+    0,  // T___SINGLEUSE_Z5M0: "Your device is locked"
+    22, // T_TXT_ATTEMPTS: "%d attempts remains"
+    59, // T___SINGLEUSE_TCK6: "X?c nh?n"
+    59, // T___SINGLEUSE_CGNR: "X?c nh?n"
+    68, // T___SINGLEUSE_HKFS: "??ng k?"
+    76, // T___SINGLEUSE_7FDW: "Start"
+    42  // T___SINGLEUSE_DQAG: "Security Pattern"
 };

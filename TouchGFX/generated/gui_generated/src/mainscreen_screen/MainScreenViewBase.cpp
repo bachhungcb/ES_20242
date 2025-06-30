@@ -117,6 +117,20 @@ MainScreenViewBase::MainScreenViewBase() :
     deleteBtn.setAction(flexButtonCallback);
     deleteBtn.setPosition(0, 275, 41, 45);
     add(deleteBtn);
+
+    attemptsText.setXY(11, 160);
+    attemptsText.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    attemptsText.setLinespacing(0);
+    attemptsText.setTypedText(touchgfx::TypedText(T_TXT_ATTEMPTS));
+    attemptsText.setVisible(false);
+    add(attemptsText);
+
+    lockNotice.setXY(17, 130);
+    lockNotice.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    lockNotice.setLinespacing(0);
+    lockNotice.setTypedText(touchgfx::TypedText(T___SINGLEUSE_Z5M0));
+    lockNotice.setVisible(false);
+    add(lockNotice);
 }
 
 MainScreenViewBase::~MainScreenViewBase()

@@ -1,5 +1,5 @@
 Application/User/generated/CustomScreenViewBase.o: \
- C:/TouchGFXProjects/FInalProject1/TouchGFX/generated/gui_generated/src/customscreen_screen/CustomScreenViewBase.cpp \
+ C:/TouchGFXProjects/ES_20242/TouchGFX/generated/gui_generated/src/customscreen_screen/CustomScreenViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/customscreen_screen/CustomScreenViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

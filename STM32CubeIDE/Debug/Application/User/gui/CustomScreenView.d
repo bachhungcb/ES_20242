@@ -1,5 +1,5 @@
 Application/User/gui/CustomScreenView.o: \
- C:/TouchGFXProjects/FInalProject1/TouchGFX/gui/src/customscreen_screen/CustomScreenView.cpp \
+ C:/TouchGFXProjects/ES_20242/TouchGFX/gui/src/customscreen_screen/CustomScreenView.cpp \
  ../../TouchGFX/gui/include/gui/customscreen_screen/CustomScreenView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/customscreen_screen/CustomScreenViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
@@ -83,7 +83,7 @@ Application/User/gui/CustomScreenView.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp \
- C:/TouchGFXProjects/FInalProject1/TouchGFX/gui/src/customscreen_screen/../../../../../FInalProject1/STM32CubeIDE/Shared/PatternManager.hpp \
+ C:/TouchGFXProjects/ES_20242/TouchGFX/gui/src/customscreen_screen/../../../../../ES_20242/STM32CubeIDE/Shared/PatternManager.hpp \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Core/Inc/stm32f4xx_hal_conf.h \
@@ -216,7 +216,7 @@ Application/User/gui/CustomScreenView.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:
-C:/TouchGFXProjects/FInalProject1/TouchGFX/gui/src/customscreen_screen/../../../../../FInalProject1/STM32CubeIDE/Shared/PatternManager.hpp:
+C:/TouchGFXProjects/ES_20242/TouchGFX/gui/src/customscreen_screen/../../../../../ES_20242/STM32CubeIDE/Shared/PatternManager.hpp:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../../Core/Inc/stm32f4xx_hal_conf.h:

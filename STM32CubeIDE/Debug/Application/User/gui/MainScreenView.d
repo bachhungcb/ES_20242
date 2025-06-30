@@ -1,5 +1,5 @@
 Application/User/gui/MainScreenView.o: \
- C:/TouchGFXProjects/FInalProject1/TouchGFX/gui/src/mainscreen_screen/MainScreenView.cpp \
+ C:/TouchGFXProjects/ES_20242/TouchGFX/gui/src/mainscreen_screen/MainScreenView.cpp \
  ../../TouchGFX/gui/include/gui/mainscreen_screen/MainScreenView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/mainscreen_screen/MainScreenViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
@@ -75,7 +75,7 @@ Application/User/gui/MainScreenView.o: \
  ../../TouchGFX/generated/images/include/BitmapDatabase.hpp \
  ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
- C:/TouchGFXProjects/FInalProject1/TouchGFX/gui/src/mainscreen_screen/../../../../../FInalProject1/STM32CubeIDE/Shared/PatternManager.hpp \
+ C:/TouchGFXProjects/ES_20242/TouchGFX/gui/src/mainscreen_screen/../../../../../ES_20242/STM32CubeIDE/Shared/PatternManager.hpp \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Core/Inc/stm32f4xx_hal_conf.h \
@@ -200,7 +200,7 @@ Application/User/gui/MainScreenView.o: \
 ../../TouchGFX/generated/images/include/BitmapDatabase.hpp:
 ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
-C:/TouchGFXProjects/FInalProject1/TouchGFX/gui/src/mainscreen_screen/../../../../../FInalProject1/STM32CubeIDE/Shared/PatternManager.hpp:
+C:/TouchGFXProjects/ES_20242/TouchGFX/gui/src/mainscreen_screen/../../../../../ES_20242/STM32CubeIDE/Shared/PatternManager.hpp:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../../Core/Inc/stm32f4xx_hal_conf.h:

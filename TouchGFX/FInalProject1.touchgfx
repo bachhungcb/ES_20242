@@ -400,6 +400,33 @@
                 "IconPressed": "__generated\\icon_theme_images_action_delete_forever_50_50_000000.svg.png"
               }
             ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "attemptsText",
+            "X": 11,
+            "Y": 160,
+            "Width": 217,
+            "Height": 24,
+            "Visible": false,
+            "LockPosition": true,
+            "TextId": "TXT_ATTEMPTS",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "TextArea",
+            "Name": "lockNotice",
+            "X": 17,
+            "Y": 130,
+            "Width": 207,
+            "Height": 24,
+            "Visible": false,
+            "LockPosition": true,
+            "TextId": "__SingleUse_Z5M0",
+            "TextRotation": "0",
+            "AutoSize": true
           }
         ],
         "Interactions": [

@@ -3,4 +3,4 @@
 ../Shared/PatternManager.cpp:19:9:uint8_t PatternManager::getReferencePatternLength() const	0	static
 ../Shared/PatternManager.cpp:24:6:void PatternManager::setReferencePattern(const int*, uint8_t)	16	static
 ../Shared/PatternManager.cpp:36:6:void PatternManager::loadPattern()	0	static
-../Shared/PatternManager.cpp:41:6:void PatternManager::clearReferencePattern()	0	static
+../Shared/PatternManager.cpp:41:6:void PatternManager::clearReferencePattern()	8	static
