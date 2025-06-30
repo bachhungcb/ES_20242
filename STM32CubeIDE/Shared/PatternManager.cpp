@@ -1,5 +1,8 @@
 #include "PatternManager.hpp"
 #include <string.h> // Cho memcpy
+extern "C" {
+    #include "FlashStorage.h"
+}
 
 // Khởi tạo instance tĩnh duy nhất
 PatternManager& PatternManager::getInstance()
@@ -20,17 +23,26 @@ uint8_t PatternManager::getReferencePatternLength() const
 
 void PatternManager::setReferencePattern(const int* newPattern, uint8_t length)
 {
-    if (length <= MAX_PATTERN_LENGTH) {
-        memcpy(referencePattern, newPattern, length * sizeof(int));
-        currentPatternLength = length;
-    } else {
+	if (length <= MAX_PATTERN_LENGTH) {
+	    memcpy(referencePattern, newPattern, length * sizeof(int));
+	    currentPatternLength = length;
+	    Flash_Write_Pattern(referencePattern, currentPatternLength); // Lưu vào flash
+	}else {
         // Xử lý lỗi nếu pattern quá dài
         // Ví dụ: in ra debug message hoặc không làm gì cả
     }
 }
 
+void PatternManager::loadPattern()
+{
+	Flash_Read_Pattern(referencePattern, &currentPatternLength);
+}
+
 void PatternManager::clearReferencePattern()
 {
     currentPatternLength = 0;
-    // Tùy chọn: memset(referencePattern, 0, sizeof(referencePattern));
+    memset(referencePattern, 0, sizeof(referencePattern));
+
+    // Xóa khỏi flash
+    Flash_Erase_PatternStorage();
 }

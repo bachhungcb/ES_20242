@@ -1,16 +1,19 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (13.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../Shared/FlashStorage.cpp \
 ../Shared/PatternManager.cpp 
 
 OBJS += \
+./Shared/FlashStorage.o \
 ./Shared/PatternManager.o 
 
 CPP_DEPS += \
+./Shared/FlashStorage.d \
 ./Shared/PatternManager.d 
 
 
@@ -21,7 +24,7 @@ Shared/%.o Shared/%.su Shared/%.cyclo: ../Shared/%.cpp Shared/subdir.mk
 clean: clean-Shared
 
 clean-Shared:
-	-$(RM) ./Shared/PatternManager.cyclo ./Shared/PatternManager.d ./Shared/PatternManager.o ./Shared/PatternManager.su
+	-$(RM) ./Shared/FlashStorage.cyclo ./Shared/FlashStorage.d ./Shared/FlashStorage.o ./Shared/FlashStorage.su ./Shared/PatternManager.cyclo ./Shared/PatternManager.d ./Shared/PatternManager.o ./Shared/PatternManager.su
 
 .PHONY: clean-Shared
 
